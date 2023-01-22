@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +36,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.controls {
+  display: flex;
+  font-size: 2rem;
+
+  align-items: center;
+  justify-content: flex-start;
+}
+.controls label {
+  background: none;
+  border: none;
+  font-weight: 600;
+  color: palevioletred;
+  padding: 0.4rem;
+  margin: 0 1rem;
+}
+.controls input {
+  background: teal;
+  border: none;
+  font-size: 2rem;
+
+  color: black;
+  margin: 0 1rem;
+  width: 60px;
+}
+
+.tutorial {
+  height: 100%;
+  width: 100%;
 }
